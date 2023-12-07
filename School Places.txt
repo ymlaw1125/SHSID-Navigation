@@ -1,0 +1,55 @@
+Gates: 
+
+北校门：百色路 (North Gate: Baise Road)
+南校门：上中路 (South Gate: Shang Zhong Road)
+东门：龙川北路 (East Gate: North Long Chuan Road)
+
+
+Teaching Buildings:
+
+教学楼 (Primary School Building) Grades 1-3
+中兴楼 (ZhongXing Building) Grades 4-7
+甄陶楼 (ZhenTao Building) Grades 8-10
+先棉堂 (XianMian Building) Grades 11-12
+逸夫楼 (YiFu Building)
+龙门楼 (LongMen Building) Local School
+工程楼 (Engineering Building)
+
+
+Parking Lots:
+
+教师专用停车场 (Teacher's Car Parking Lot)
+校车停车场 (School Bus Parking Lot)
+
+
+Cafeterias:
+
+国际部食堂 (SHSID Cafeteria)
+本部食堂 (SHS Dining Hall)
+
+
+Sport Grounds:
+
+网球中心 (Tennis Center)
+室外网球场 (Outdoor Tennis Court)
+体育馆 (Gymnasium)
+篮球场 (Basketball Court)
+排球场 (Volleyball Court)
+足球场 (Soccer Field)
+室内游泳馆 (Indoor Swimming Pool)
+
+Other Places:
+
+大礼堂 (Auditorium)
+办公楼 (Administration Building)
+先棉堂附楼 (XianMian Annex Building)
+国际部招生办公室 (SHSID Admissions Office)
+影视媒体中心 (Multi-media Center)
+美术中心 (Art Center)
+总务楼 (General Affairs Building)
+图书信息中心 (Library and Information Center)
+洗衣房 (Laundry)
+罗森 (Lawson)
+
+
+
