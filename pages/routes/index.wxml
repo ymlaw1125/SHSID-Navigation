@@ -1,0 +1,32 @@
+<view class="container">
+  <button bindtap="drawLiveLocation">Live Location</button>
+  <view class="map_view_out" catchtouchstart="touchstartCallback" catchtouchmove="touchmoveCallback" catchtouchend="touchendCallback">
+  <view class="map_view_in">
+    <image style="transform:translate({{stv.offsetX}}px, {{stv.offsetY}}px) scale({{stv.scale}}); transform-origin: center;" src="../../media/images/SHSID_Map.png" mode="aspectFit" class="coveredImage"></image>
+    <canvas style="transform:translate({{stv.offsetX}}px, {{stv.offsetY}}px) scale({{stv.scale}}); transform-origin: center;" canvas-id="canvas" class="coveringCanvas" ></canvas>
+    <canvas style="transform:translate({{stv.offsetX}}px, {{stv.offsetY}}px) scale({{stv.scale}}); transform-origin: center;" canvas-id="canvas_live_location" class="coveringCanvas" ></canvas>
+    
+  </view>
+  </view>
+  <view class="routes">
+  From {{startingLocation}} to {{endingLocation}}
+  </view>
+  <view class="info-row">
+      <view class="info">
+        {{shortestDistance}} meters
+      </view>
+      <view class="info">
+        {{shortestTime}} minutes
+      </view>
+  </view>
+
+  <view wx:for="{{directions}}" class="routes">
+    <view class="routes-text">
+      <text>{{item[0]}}</text>
+    </view>
+    <view class="routes-image" >
+      <image wx:if="{{item[1]}}" src="../../media/images/{{item[1]}}.png" mode="aspectFit" style="width: 30px; height: 30px;"></image>
+    </view>
+    <text>\n</text>
+  </view>
+</view>
