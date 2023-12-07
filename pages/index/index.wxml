@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="section">
+    <picker mode="multiSelector" bindchange="bindStartMultiPickerChange"  bindcolumnchange="bindStartMultiPickerColumnChange" value="{{startMultiIndex}}" range="{{startMultiArray}}">
+    <view class="picker">
+      <icon type="search" color="black" size="18px"></icon>
+      Starting Location: {{startMultiArray[1][startMultiIndex[1]]}}
+    </view>
+  </picker>
+  </view>
+
+  <view class="section">
+    <picker mode="multiSelector" bindchange="bindEndMultiPickerChange" bindcolumnchange="bindEndMultiPickerColumnChange" value="{{endMultiIndex}}" range="{{endMultiArray}}">
+    <view class="picker">
+      <icon type="search" color="black" size="18px"></icon>
+      Ending Location: {{endMultiArray[1][endMultiIndex[1]]}}
+    </view>
+  </picker>
+  </view>
+
+  <view class="map_view" catchtouchstart="touchstartCallback" catchtouchmove="touchmoveCallback" catchtouchend="touchendCallback">
+    <image style="transform:translate({{stv.offsetX}}px, {{stv.offsetY}}px) scale({{stv.scale}});" src="../../media/images/SHSID_Map.png" mode="aspectFit"></image>
+  </view>
+
+  <view class="done">
+    <button type="primary" data-path="routes/index" class="done" bindtap="toRoute">Find Route</button>
+  </view>
+</view>
